@@ -1,0 +1,113 @@
+
+#navbar{
+    background-color: #FE661D
+
+}
+#navbar a{
+    font-family:"Party Business", Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1
+{
+    font-family:"Party Business", Times, serif;
+    font-size: 4em;
+}
+
+
+
+.ring1 {
+    position: absolute;
+    margin-left: 10em;
+    left: 400px;
+    background-color: white;
+    border-radius: 50%;
+    border: 8px solid orange;
+    width: 80px;
+    height: 80px;
+}
+
+.ring2 {
+    position: absolute;
+    margin-left: 10em;
+    left: 1000px;
+    background-color: white;
+    border-radius: 50%;
+    border: 8px solid orange;
+    width: 80px;
+    height: 80px;
+}
+
+.ring3 {
+    position: absolute;
+    margin-left: 10em;
+    left: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid #fece0e;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 3px 3px 5px 1px #d6b013, 4px 4px 5px #d6b013;
+}
+
+.ring-1 {
+    position: absolute;
+    margin-left: 10em;
+    left: 45px;
+    border-radius: 50%;
+    border: 2.6666666667px solid #666666;
+    width: 50px;
+    height: 50px;
+}
+
+.ring-2 {
+    position: absolute;
+    margin-left: 10em;
+    left: 90px;
+    border-radius: 50%;
+    border: 5.3333333333px solid #666666;
+    width: 100px;
+    height: 100px;
+}
+
+.ring-3 {
+    position: absolute;
+    margin-left: 10em;
+    left: 135px;
+    border-radius: 50%;
+    border: 8px solid #666666;
+    width: 150px;
+    height: 150px;
+}
+
+.ring-4 {
+    position: absolute;
+    margin-left: 10em;
+    left: 180px;
+    border-radius: 50%;
+    border: 10.6666666667px solid #666666;
+    width: 200px;
+    height: 200px;
+}
+
+.ring-5 {
+    position: absolute;
+    margin-left: 10em;
+    left: 225px;
+    border-radius: 50%;
+    border: 13.3333333333px solid #666666;
+    width: 250px;
+    height: 250px;
+}
+
+.ring-6 {
+    position: absolute;
+    margin-left: 10em;
+    left: 270px;
+    border-radius: 50%;
+    border: 16px solid #666666;
+    width: 300px;
+    height: 300px;
+}

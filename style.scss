@@ -1,0 +1,37 @@
+@mixin myRing ($borderSize,$color,$width,$height, $left)
+{
+  position: absolute;
+  margin-left:10em;
+  left:$left;
+  border-radius: 50%;
+  border: $borderSize solid $color;
+  width: $width;
+  height: $height;
+
+}
+@mixin myShadow ($insetShadow,$offsetShadow)
+{
+  box-shadow: inset $insetShadow ,  $offsetShadow;
+}
+
+.ring1{
+  @include myRing (8px, orange, 80px, 80px, 250px);
+}
+.ring2{
+  @include myRing (8px, orange, 80px, 80px, 900px);
+}
+
+
+.ring3{
+  $insetShadow: 3px 3px 5px 1px  	#d6b013;
+  $offsetShadow: 4px 4px 5px 	#d6b013;
+  @include myRing (15px, #fece0e, 200px, 200px, 50px);
+  @include myShadow($insetShadow ,  $offsetShadow);
+}
+
+@for $i from 1 through 6 {
+  .ring-#{$i} {
+    @include myRing (8px*($i/3), #666666, 50px*$i, 50px*$i, 45px*$i);
+
+  }
+}
